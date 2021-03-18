@@ -1,0 +1,44 @@
+.container{
+    padding:5px;
+    margin-bottom: 20px;
+}
+.nav-wrapper{
+    background-color: #26a69a !important;
+    padding: 0 10px;
+}
+
+h2{
+    font-weight: 800;
+    color: #26a69a;
+    font-style:italic;
+}
+
+.row{
+    height: 500px !important;
+    margin-bottom: 50px;
+    
+}
+
+.col-6.left{
+  width: 400px;
+  margin-top: 20px;
+}
+
+.col-6.right{
+    width: 400px;
+    margin-top: 20px;
+}
+
+.footer{
+    background-color:#26a69a !important;
+    height: 100px;
+    color: white;
+    font-weight: 500;
+    
+}
+
+#footer{
+    text-align: center;
+    margin-left: 30px; 
+}
+

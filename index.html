@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Main Page-Using Materialize</title>
+</head>
+<body>
+  <!-- The Navigation Bar Starts Here -->
+    <div class="container-fluid">
+        <nav>
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo" style="font-weight:700">DanBudgetApp</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down" style="font-weight:600">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="About.html">About</a></li>
+              </ul>
+            </div>
+          </nav>
+    </div>
+      
+      <!-- The Main container Starts Here -->
+    <div class = "container">
+        <!-- The Picture grid Starts Here -->
+        <div class="row">
+            <div class="col-5 left">
+            <img src="bg.png" alt="Logo" height="500" width="400">              
+            </div>
+
+      <!-- The Form grid starts here -->
+<div class="col-6 right">
+    <div class="col s12">
+        <h2>SignUp Here</h2>
+    </div>
+
+        <form class="Sign Up Form">
+                <div class="row">
+                  <div class="col-6 firstName">
+                    <input placeholder="First Name" id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                  </div>
+                  <div class="col-6 lastName">
+                        <input placeholder="Last Name" id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                      </div>
+                      <div class="col-6  Password">
+                            <input placeholder="Password" id="password" type="password" class="validate">
+                            <label for="password">Password</label>
+                          </div>
+                          <div class="col-6  ConfirmPassword">
+                                <input placeholder="Confirm Password" id="confirmPassword" type="password" class="validate">
+                                <label for="password">Confirm Password</label>
+                              </div>
+                          <div class=" col-12 Email">
+                                <input placeholder="Email" id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+    
+                    </div>
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                            <i class="material-icons right"></i>
+                          </button>
+                  </form>
+        
+            </div>
+            </div>
+            </div>
+          </div>
+  <!-- The Footer Starts Here -->
+  <div class="footer">
+      <div class="footer-copyright">
+          <div class="container">
+         <p id="footer"> © 2021 | Daniel Okolo Production | All Rights Reserved</p>
+         <p id="footer"> In Collaboration with IT Department, Peace Group of Companies-Enugu, Nigeria.</p>
+          </div>
+  </div>                       
+</body>
+</html>

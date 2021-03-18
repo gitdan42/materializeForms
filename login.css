@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(218, 218, 218);
+}
+.container{
+    padding:5px;
+}
+.nav-wrapper{
+    background-color: #26a69a !important;
+    padding: 0 10px;
+}
+
+h2{
+    font-weight: 800;
+    color: #26a69a;
+    font-style:italic;
+}
+
+.row{
+    height: 550px !important;
+}
+
+.col-6.left{
+  width: 350px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+.col-6.right{
+    width: 400px;
+    margin-top: 50px;
+}
+
+.footer{
+    background-color:#26a69a !important;
+    height: 200px;
+    color: white;
+    font-weight: 500;
+    
+}
+
+#footer{
+    text-align: center;
+    margin-left: 300px; 
+}
